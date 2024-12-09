@@ -1,0 +1,131 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #f8f9fa;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #e9f5ff;
+  
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px #1ce9c71a;
+  text-align: center;
+}
+
+.card h2 {
+  color: hsl(180, 85%, 62%);
+}
+
+.card a {
+  color: aqua;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f8f9fa;
+}
+.global-company {
+  background: #e9f5ff;
+  padding: 40px 20px;
+}
+
+.global-company .intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.global-company .logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.global-company .logos img {
+  max-width: 100px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.global-company .platform-details {
+  text-align: center;
+}
+
+.global-company .platform-details h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.global-company .platform-details p {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.global-company .stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.global-company .stat {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.global-company .stat h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.pays{
+  text-align: center ;
+}
